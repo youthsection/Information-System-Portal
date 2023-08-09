@@ -16,9 +16,9 @@ function Home() {
           <div className="row">
             <div className="col-md-3 col-sm-12  ">
               <motion.img
-                initial={{ x: -200, opacity: 0 }}
+                initial={{ y: -50, opacity: 0 }}
                 transition={{ duration: 1.2 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 src={lgu_yds_logo}
                 class="img-thumbnail object-fit-contain border rounded home__logo mx-auto d-block mb-2"
@@ -26,9 +26,9 @@ function Home() {
             </div>
             <div className="col-md-3 col-sm-12 ">
               <motion.img
-                initial={{ x: -200, opacity: 0 }}
+                initial={{ y: -50, opacity: 0 }}
                 transition={{ duration: 1.2 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 src={mydc_logo}
                 class="img-thumbnail object-fit-contain border rounded home__logo mx-auto d-block mb-2"
@@ -36,9 +36,9 @@ function Home() {
             </div>
             <div className="col-md-3 col-sm-12  ">
               <motion.img
-                initial={{ x: 200, opacity: 0 }}
+                initial={{ y: -50, opacity: 0 }}
                 transition={{ duration: 1.2 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 src={sk_logo}
                 class="img-thumbnail object-fit-contain border rounded home__logo mx-auto d-block mb-2"
@@ -46,9 +46,9 @@ function Home() {
             </div>
             <div className="col-md-3 col-sm-12  ">
               <motion.img
-                initial={{ x: 200, opacity: 0 }}
+                initial={{ y: -50, opacity: 0 }}
                 transition={{ duration: 1.2 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 src={yds_logo}
                 class="img-thumbnail object-fit-contain border rounded home__logo mx-auto d-block "
@@ -58,61 +58,28 @@ function Home() {
           <br />
           <figure className="text-center">
             <blockquote className="blockquote">
-              <motion.h2
-                initial={{ x: -200, opacity: 0 }}
-                transition={{ duration: 1.2 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-              >
-                Municipality of Nabunturan
-              </motion.h2>
+              <h2>Municipality of Nabunturan</h2>
             </blockquote>
             <blockquote className="blockquote">
-              <motion.h5
-                initial={{ x: 200, opacity: 0 }}
-                transition={{ duration: 1.2 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-              >
-                {" "}
-                YOUTH INFORMATION SYSTEM
-              </motion.h5>
+              <h5> YOUTH INFORMATION SYSTEM</h5>
             </blockquote>
           </figure>
           <div className="row">
             <div className="col text-center">
-              <motion.p
-                initial={{ x: -200, opacity: 0 }}
-                transition={{ duration: 1.2 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                class="lead text-center bg-light text-dark home__p fw-bolder home__vision"
-              >
+              <p class="lead text-center bg-light text-dark home__p fw-bolder home__vision">
                 Vision
-              </motion.p>
+              </p>
             </div>
           </div>
 
           <div className="row">
             <div className="col-md-12 col-sm-12">
-              <motion.p
-                initial={{ x: -200, opacity: 0 }}
-                transition={{ duration: 1.2 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                className="text-center "
-              >
+              <p className="text-center ">
                 {" "}
                 Enable, involved, and patriotic youth realizing their
                 aspirations anchored on integrity and compassion{" "}
-              </motion.p>
-              <motion.ul
-                initial={{ x: 200, opacity: 0 }}
-                transition={{ duration: 1.2 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                class="list-group "
-              >
+              </p>
+              <ul class="list-group ">
                 <li
                   class="list-group-item text-center active"
                   aria-current="true"
@@ -137,23 +104,17 @@ function Home() {
                   Bantan-ong Nabunturan have access to technology, information,
                   and services for the betterment of society.
                 </li>
-              </motion.ul>
+              </ul>
             </div>
           </div>
           <br />
-          <motion.p
-            initial={{ x: -200, opacity: 0 }}
-            transition={{ duration: 1.2 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            className="lead text-center bg-light text-dark home__p fw-bolder home__vision"
-          >
+          <p className="lead text-center bg-light text-dark home__p fw-bolder home__vision">
             Mission
-          </motion.p>
+          </p>
           <div className="row">
             <div className="col-md-12 col-sm-12 text-center">
-              <motion.p
-                initial={{ x: 200, opacity: 0 }}
+              <p
+                initial={{ x: -200, opacity: 0 }}
                 transition={{ duration: 1.2 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
@@ -163,28 +124,16 @@ function Home() {
                 to culturally sensitive, inclusive and meaningful programs that
                 will transform and hone youth as future leaders in the
                 municipality.
-              </motion.p>
+              </p>
             </div>
           </div>
 
-          <motion.p
-            initial={{ x: -200, opacity: 0 }}
-            transition={{ duration: 1.2 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            className="lead text-center bg-light text-dark home__p fw-bolder home__vision"
-          >
+          <p className="lead text-center bg-light text-dark home__p fw-bolder home__vision">
             Guiding Principles
-          </motion.p>
+          </p>
           <div className="row">
             <div className="col-md-12 col-sm-12">
-              <motion.p
-                initial={{ x: 200, opacity: 0 }}
-                transition={{ duration: 1.2 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                className="text-center "
-              >
+              <p className="text-center ">
                 <span className="fw-bolder">
                   Patriotic: <br />{" "}
                 </span>{" "}
@@ -192,14 +141,8 @@ function Home() {
                 aspirations of Davao de Oro Youth in realizing endeavours for
                 personal and professional growth and the betterment of the
                 nation.
-              </motion.p>
-              <motion.p
-                initial={{ x: -200, opacity: 0 }}
-                transition={{ duration: 1.2 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                className="text-center "
-              >
+              </p>
+              <p className="text-center ">
                 <span className="fw-bolder">
                   Involved: <br />
                 </span>{" "}
@@ -207,20 +150,14 @@ function Home() {
                 planning, implementation and evaluation of youth programs. Thus,
                 engaging the youth to take part voluntarily in any government
                 initiatives.
-              </motion.p>
-              <motion.p
-                initial={{ x: 200, opacity: 0 }}
-                transition={{ duration: 1.2 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                className="text-center "
-              >
+              </p>
+              <p className="text-center ">
                 <span className="fw-bolder">
                   Enabled: <br />
                 </span>{" "}
                 We will developed the youth to become empowered that will enable
                 them to take actions on societal issues concerning them.
-              </motion.p>
+              </p>
             </div>
           </div>
         </div>
