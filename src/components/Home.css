@@ -15,3 +15,15 @@
 .home__p {
   border-radius: 0.3rem;
 }
+
+.home__vision {
+  width: fit-content;
+  text-align: center;
+  padding: 5px;
+}
+
+.list-group-item {
+  background: none !important;
+  border: none !important;
+  color: white !important;
+}
