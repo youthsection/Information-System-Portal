@@ -3,11 +3,11 @@ import React from "react";
 function MunicipalYouthDevelopmentCouncil() {
   return (
     <div className="container">
-      <table className="table caption-top table-responsive">
+      <table className="table table-hover caption-top table-responsive">
         <caption>Municipal Youth Development Council</caption>
         <thead>
           <tr>
-            <th>lorem</th>
+            <th>unknown</th>
             <th>Name</th>
           </tr>
         </thead>

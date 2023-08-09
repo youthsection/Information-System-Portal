@@ -1,0 +1,17 @@
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  /* background-color: #e9ecef; */
+  background-color: #198754;
+  border-radius: 0.3rem;
+  color: white;
+}
+
+.home__logo {
+  width: 250px !important;
+  height: 160px !important;
+}
+
+.home__p {
+  border-radius: 0.3rem;
+}

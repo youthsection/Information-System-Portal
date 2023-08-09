@@ -3,12 +3,12 @@ import React from "react";
 function SangguniangKabataan() {
   return (
     <div className="container">
-      <table className="table caption-top table-responsive">
+      <table className="table table-hover caption-top table-responsive">
         <caption>Sangguniang Kabataan</caption>
         <thead>
           <tr>
             <th>Name</th>
-            <th>Place</th>
+            <th>Barangay</th>
           </tr>
         </thead>
         <tbody>
